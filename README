@@ -1,0 +1,26 @@
+10658459
+
+# WebTech2
+# Project Title
+This website enables students to register a hall and a room. There's a page that enables students to register as a student and then choose a hall and room. If the student has already registered, he or she just has to log in and select.
+
+### Process 
+### Prerequisites
+
+Mongoose, nodejs and express were required in order for them to be used. Bcrypt was also used to hash the password. This is how it was done.
+
+let express = require('express');
+const bcrypt = require('bcrypt');
+ let mongoose = require('mongoose');
+
+### Break down 
+
+There's an 'index.js' file which has all the routes and the various code for the backend
+The 'index.ejs' page has two buttons which enable students to register or sign up
+The 'reg.ejs' page enables students to register
+The 'save.ejs' page enables students to choose a hall and room
+The 'display.ejs' page shows the students name as well as the hall and room he or she has chosen.
+The 'style.css' page has all the styling for the page
+
+
+When the student registers, the information goes into the database.
